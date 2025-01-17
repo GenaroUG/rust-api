@@ -22,3 +22,7 @@ pub async fn manual_goodbye() -> impl Responder {
 pub async fn running() -> impl Responder {
     HttpResponse::Ok().body("Running!")
 }
+
+pub async fn dancing() -> impl Responder {
+    HttpResponse::Ok().body("Dancing!")
+}
