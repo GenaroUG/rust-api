@@ -13,3 +13,7 @@ pub async fn echo(req_body: String) -> impl Responder {
 pub async fn manual_hello() -> impl Responder {
     HttpResponse::Ok().body("Hey there!")
 }
+
+pub async fn manual_goodbye() -> impl Responder {
+    HttpResponse::Ok().body("See you!")
+}
