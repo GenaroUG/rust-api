@@ -17,3 +17,7 @@ pub async fn manual_hello() -> impl Responder {
 pub async fn jumping() -> impl Responder {
     HttpResponse::Ok().body("Jumping!")
 }
+
+pub async fn playing() -> impl Responder {
+    HttpResponse::Ok().body("Playing!")
+}
