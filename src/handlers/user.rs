@@ -21,3 +21,15 @@ pub async fn jumping() -> impl Responder {
 pub async fn playing() -> impl Responder {
     HttpResponse::Ok().body("Playing!")
 }
+
+pub async fn manual_goodbye() -> impl Responder {
+    HttpResponse::Ok().body("See you!")
+}
+
+pub async fn running() -> impl Responder {
+    HttpResponse::Ok().body("Running!")
+}
+
+pub async fn dancing() -> impl Responder {
+    HttpResponse::Ok().body("Dancing!")
+}
