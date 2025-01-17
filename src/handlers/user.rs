@@ -17,3 +17,8 @@ pub async fn manual_hello() -> impl Responder {
 pub async fn manual_goodbye() -> impl Responder {
     HttpResponse::Ok().body("See you!")
 }
+
+
+pub async fn running() -> impl Responder {
+    HttpResponse::Ok().body("Running!")
+}
